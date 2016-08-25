@@ -1,0 +1,8 @@
+spring:
+  profiles: default
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
